@@ -48,7 +48,7 @@ function App() {
           <>
             <Banner />
             <Brands />
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div className="animate-pulse">Loading...</div>}>
               <NewArrivals
                 productsPromise={productPromise}
                 onHandleAllProducts={handleAllProducts}

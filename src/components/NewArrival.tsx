@@ -1,6 +1,6 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
 import type { ProductType } from "../types"
-import ProductButton from "./common/ProductButton";
+
 
 export interface NewArrivalProps {
    product: ProductType

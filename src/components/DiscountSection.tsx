@@ -5,11 +5,11 @@ import Button from './common/Button';
 const DiscountSection = () => {
    return (
      <div className="bg-[#F9DD55] container mx-auto mt-16">
-       <div className="grid grid-cols-2 gap-5 items-center">
+       <div className="grid lg:grid-cols-2 gap-5 items-center">
          <div className="flex justify-center ">
            <img src={PayDay} alt="A Girl Photo" />
          </div>
-         <div className="p-7">
+         <div className="p-7 text-center lg:text-left">
            <h1 className="text-5xl font-black mb-5">
              <span className="bg-white px-3">PAYDAY</span>
              <p className="mt-3">SALE NOW</p>

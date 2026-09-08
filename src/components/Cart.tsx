@@ -28,7 +28,9 @@ export default function Cart({ cart, setCart, totalPrice ,setTotalPrice}: CartPr
   }
   return (
     <div className="container mx-auto px-10 py-4 mt-20">
-      <h1 className="text-xl font-semibold mb-5">Total : ${totalPrice} </h1>
+      <h1 className="text-xl font-semibold mb-5">
+        Total : ${totalPrice.toFixed(2)}{" "}
+      </h1>
       {cart.map((product) => {
         return (
           <div className="container mx-auto py-2">

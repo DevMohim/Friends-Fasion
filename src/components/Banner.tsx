@@ -4,9 +4,9 @@ import Button from './common/Button';
 const Banner = () => {
    return (
      <div className="container mx-auto px-10 py-4 mt-16 mb-6">
-       <div className="grid grid-cols-12 gap-4 bg-[#F4F6F5] p-8 rounded-2xl">
-         {/* 45% */}
-         <div className="col-span-5">
+       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 bg-[#F4F6F5]  px-8 pt-8 rounded-2xl">
+         {/* 45% */} 
+         <div className="lg:col-span-5 ">
            <h1 className="font-black text-[48px] ">
              <p className="bg-white max-w-[50%] pl-2">LET’S</p>
              EXPLORE
@@ -21,7 +21,7 @@ const Banner = () => {
          </div>
 
          {/* 55% */}
-         <div className="col-span-7 ">
+         <div className="lg:col-span-7 ">
            <img
              src={BannerImage}
              alt="Banner Image"

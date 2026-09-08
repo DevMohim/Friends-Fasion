@@ -18,7 +18,7 @@ export default function NewArrivals({ products, setCart,totalPrice, setTotalPric
     <section className="container mx-auto px-10 py-4">
       <h1 className="mb-10 mt-5 font-black text-[32px]"> All Products</h1>
 
-      <div className="grid grid-cols-4 gap-5 ">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 ">
         {isClicked
           ? products.map((product) => (
               <ProductCard

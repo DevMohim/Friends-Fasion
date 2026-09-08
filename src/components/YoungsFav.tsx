@@ -1,4 +1,4 @@
-import React from "react";
+
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Trending1 from "../assets/young-fav1.png";
 import Trending2 from "../assets/young-fav2.png";

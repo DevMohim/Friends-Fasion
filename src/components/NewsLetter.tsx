@@ -5,12 +5,12 @@ const NewsLetter = () => {
      <div className="container mx-auto px-10 py-4 bg-[#E5C643] mt-10">
        <div className="flex flex-col gap-5 justify-center items-center p-20">
          <h1
-           className="text-white max-w-[60%] font-black text-4xl
+           className="text-white max-w-[90%] lg:max-w-[60%] mx-auto font-black text-2xl lg:text-4xl
          text-center "
          >
            JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO
          </h1>
-         <p className="text-white text-2xl">
+         <p className="text-white lg:text-2xl">
            Type your email down below and be young wild generation
          </p>
          <div className="flex items-center relative">
